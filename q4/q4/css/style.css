@@ -1,1 +1,71 @@
 @charset "UTF-8";
+
+h1, h2, h3 {
+  text-align: center;
+  margin: 40px 0;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.sub--title {
+  font-size: 24px;
+}
+
+.table--area {
+  margin-top: 30px;
+}
+
+.wrapper {
+  padding: 0 3%;
+}
+
+.content  {
+  display: table;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.content:first-child{
+  margin-top: 0px;
+}
+
+.common {
+  padding: 20px;
+  display: table-cell;
+  text-align: center;
+}
+
+.red--box {
+  background: #ff7b7b;
+  width: 300px;
+}
+
+.purple--box  {
+  background: #7b86ff;
+}
+
+.yellow--box  {
+  background: #fff27b;
+  width: 300px;
+}
+
+.green--box  {
+  background: #7bff91;
+}
+
+.pink--box  {
+  background: #ff7be2;
+  width: 400px;
+}
+
+.orange--box  {
+  background: #ffc67b;
+  width: 400px;
+}
+
+.blue--box  {
+  background: #7bf2ff;
+}

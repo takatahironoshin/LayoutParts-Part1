@@ -1,2 +1,123 @@
 @charset "UTF-8";
 /* 回答はここから */
+h1, h2, h3 {
+	text-align: center;
+	margin: 40px 0;
+	font-weight: bold;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.sub--title {
+  font-size: 24px;
+}
+
+.question--title {
+  font-size: 20px;
+}
+
+.q1--horizontality {
+  width: 200px;
+  margin: 0 auto 20px;
+  padding: 20px;
+  background-color: #a4e4f1;
+}
+
+.content1	{
+	display: inline-block;
+	width: 200px;
+	background: #fff;
+	padding: 20px	0px;
+}
+
+.text1-box	{
+	text-align: center;
+}
+
+.text-align	{
+	display: inline-block;
+	font-size: 16px;
+	padding: 10px;
+	background: #a4b3e9;
+}
+
+.content2	{
+	display: inline-block;
+	width: 200px;
+	background: #fff;
+	padding: 20px	0px;
+  font-size: 16px;
+}
+
+.margin	{
+  text-align: center;
+  margin: 0 auto;
+  width: 90px;
+  padding: 10px;
+  background: #a4b3e9;	
+}
+
+.q1--perimeter {
+  display: table;
+  width: 250px;
+  height: 150px;
+  margin: 0 auto 20px;
+  background-color: #a4e4f1;
+}
+
+.content3	{
+	font-size: 16px;
+	text-align: center;
+  display: table-cell;
+	vertical-align: middle;
+}
+
+.table	{
+  padding: 10px;
+  background: #fff;
+  display: inline-block;
+}
+
+.q1--perimeter2 {
+  width: 250px;
+  height: 150px;
+  margin: 0 auto 20px;
+  background-color: #a4e4f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex {
+  background: #fff;
+  padding: 10px;
+}
+
+.q1--position {
+  width: 250px;
+  margin: 0 auto;
+  padding: 20px 20px;
+  background-color: #a4e4f1;
+}
+
+.container {
+  display: inline-block;
+  width: 250px;
+  height: 150px;
+  margin: 0 auto;
+  background-color: #FFF;
+  font-size: 16px;
+  vertical-align: top;
+  position: relative;
+}
+
+.content4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #a4b3e9;
+  padding: 10px;
+}
