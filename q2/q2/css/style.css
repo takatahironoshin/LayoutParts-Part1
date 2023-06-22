@@ -13,5 +13,11 @@
 	border-radius: 13px;
 	background: #d2b48c;
 	padding: 10px;
-	margin: 30px;
+	margin-right: 60px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.card:last-child {
+	margin-right: 0px;
 }
